@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "171510883106",
+    "project_id": "tech-challenge-flutter",
+    "storage_bucket": "tech-challenge-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171510883106:android:1f2fe9bde0968460d8fb7b",
+        "android_client_info": {
+          "package_name": "com.example.vaga_pleno_challenge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "171510883106-r7f7mje29qeq896itdi6a2s6qa91ue1c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiDeX-aYXqde-7tqFr1-D7moRWqNcj8Lo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "171510883106-r7f7mje29qeq896itdi6a2s6qa91ue1c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
