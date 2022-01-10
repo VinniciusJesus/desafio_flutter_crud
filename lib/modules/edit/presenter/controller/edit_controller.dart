@@ -1,5 +1,6 @@
 import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
+import 'package:vaga_pleno_challenge/app/widgets/index.dart';
 import 'package:vaga_pleno_challenge/features/products/item/product_model.dart';
 import 'package:vaga_pleno_challenge/modules/edit/domain/usecases/edit_product/index.dart';
 
@@ -20,6 +21,10 @@ class EditController extends GetxController {
   }
 
   Future<void> edit(ProductItem item) async {
+    if (priceEC.text.isEmpty) {
+      SnackbarImpl().error("Digite o novo preço!");
+      return;
+    }
     final newProduct = ProductItem(
         type: typeEC.text,
         description: descriptionEC.text,

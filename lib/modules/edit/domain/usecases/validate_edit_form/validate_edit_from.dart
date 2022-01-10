@@ -7,7 +7,6 @@ import '../validate_type/index.dart';
 class ValidateEditFrom {
   final _snack = SnackbarImpl();
 
-  @override
   bool validate(ProductItem item) {
     if (ValidateTitle().validate(item) != true) return false;
     if (ValidateType().validate(item) != true) return false;

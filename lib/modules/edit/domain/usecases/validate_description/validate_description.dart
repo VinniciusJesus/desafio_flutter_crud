@@ -23,7 +23,7 @@ class ValidateDescription implements IValidateField {
 
   @override
   bool validateMaxLenght(String txt) {
-    if (MaxLengthValidate().validate(txt, 80) != true) {
+    if (MaxLengthValidate().validate(txt, 200) != true) {
       _snack.error("Desculpe, descrição muito longa.");
       return false;
     }

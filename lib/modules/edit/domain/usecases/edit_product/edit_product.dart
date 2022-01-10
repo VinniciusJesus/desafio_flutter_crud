@@ -22,10 +22,10 @@ class EditProduct {
           "title": newItem.title,
         },
       );
-    }
-    await _productsService.getProducts();
+      await _productsService.getProducts();
 
-    Popup().closeButton("Tudo certo!", "Você editou este produto com sucesso",
-        alertType: AlertType.success);
+      Popup().closeButton("Tudo certo!", "Você editou este produto com sucesso",
+          alertType: AlertType.success);
+    }
   }
 }
