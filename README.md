@@ -1,16 +1,15 @@
-# vaga_pleno_challenge
+# Desafio Flutter
+## Marcos Vinicius Jesus Pereira
 
-A new Flutter project.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## O Projeto
 
-A few resources to get you started if this is your first Flutter project:
+O projeto é um aplicativo, onde é realizado a conexão com o Firebase. São usados os serviços do Firestore para listagem de produtos, nos quais é possível editar e remover.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## Instruções
+Ao clicar em download, você será redirecionado para o site MediaFire. Clique em download e após o término abra e instale em seu aparelho android. Ao ininiciar o APP, os produtos serão listados automaticamente, você conseguirá editar ou remover algum item ao clicar no menu (3 pontinhos) no canto superior direito. Caso queira repetir os dados antigos ao editar e alterar pequenos detalhes, você pode clicando no botão "Repetir Dados".
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Download
+https://www.mediafire.com/file/s45s9du6s4s2our/app-release.apk/file
+
